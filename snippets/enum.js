@@ -5,11 +5,11 @@ const errorCode = {
     IE312: "invalid card"
 }
 
-var paymentStatus = "IE211";
+var paymentStatus = "not authorized";
 
-console.log(errorCode[paymentStatus]);
+console.log(errorCode.IE211);
 
-if (paymentStatus == errorCode[paymentStatus]) {
+if (paymentStatus == errorCode.IE211) {
     console.log(errorCode.IE211)
 }
 
