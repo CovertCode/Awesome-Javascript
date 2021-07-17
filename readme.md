@@ -1,2 +1,2 @@
 ## Types
-1. [enum](./snippets/enum.js)
+1. [Enum](./snippets/enum.js)
