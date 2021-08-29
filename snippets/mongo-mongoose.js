@@ -3,3 +3,9 @@ const findOneAndUpdate = User.findOneAndUpdate({ mobile_number: '8562981231' }, 
 findOneAndUpdate.then((err, data) => {
     console.log(err || data);
 })
+
+// Find data using mobile_number then push item to array[vehicle] and update firstName
+const findOneAndUpdate = User.findOneAndUpdate({ mobile_number: '8562981231' }, { $push: { vehicle: 'up33kk' }, firstName: 'Selena' })
+findOneAndUpdate.then((err, data) => {
+    console.log(err || data);
+})
